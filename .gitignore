@@ -1,0 +1,17 @@
+# Competition data and generated predictions
+data/
+outputs/
+*.csv
+
+# Notebook and Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local environments
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
