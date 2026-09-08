@@ -36,6 +36,7 @@ Hyperparameter tuning improved holdout MAE by only $0.43. This suggests that the
 ## Performance by Price Range
 
 The target contained a small number of exceptionally high prices:
+![Distribution of Airbnb training prices with the full range and mainstream market shown separately](images/price_distribution.png)
 
 * 95% of training listings were priced at or below $555
 * 99% were priced at or below approximately $1,106
@@ -47,6 +48,7 @@ The available data could not establish whether the extreme prices were genuine l
 ## Strongest Predictors
 
 Permutation importance identified the following as the most useful predictors for mainstream listings:
+![Permutation importance showing the strongest Airbnb price predictors](images/feature_importance.png)
 
 1. Bedrooms
 2. Guest capacity
